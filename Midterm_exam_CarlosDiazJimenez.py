@@ -7,7 +7,13 @@ print("QUESTION X")
 # SOLUTION
 
 # QUESTION 1
-# text text text actual question
+# What will be the value of "a" at the end of the code:
+# a = 16
+# a = a // 2
+# print(a**2)
+# a = a + 11
+# print(a+1)
+# a = a - 3
 
 print("QUESTION 1")
 # SOLUTION
@@ -21,14 +27,15 @@ a = a - 3
 print(a)
 
 # QUESTION 2
-# text text text actual question
+# What will the following code print?
+# print(2+3*6/2)
 
 print("QUESTION 2")
 #SOLUTION
 print(2+3*6/2)
 
 # QUESTION 3
-# text text text actual question
+# Fill in what the code below prints (all the lines):
 
 print("QUESTION 3")
 #SOLUTION
@@ -50,7 +57,7 @@ d = "abc" * (c // 3)
 print(d)
 
 # QUESTION 4
-# text text text actual question
+# Here is a function that determines if a number is palindrome or not:
 
 print("QUESTION 4")
 #SOLUTION
@@ -60,13 +67,16 @@ def palindrome(word):
     else:
         return False
 
+# Which of the below is NOT a palindrome?
 print(palindrome("4257304920394478392772938744930294037524"))
 print(palindrome("7798338247658278460338648728567428338977")) # false
 print(palindrome("0974101607733149676776769413377061014790"))
 print(palindrome("2704702208931031198668911301398022074072"))
 
 # QUESTION 5
-# text text text actual question
+# Write a function that finds all the occurrences of a certain pattern, that starts with “un” has unlimited number of letters and ends with “an”
+# The function takes 1 parameter: the text to look into and returns the number of matches.
+# Use only the things we have learned in class. Give some explanations besides the code.
 
 print("QUESTION 5")
 #SOLUTION
@@ -87,11 +97,11 @@ print(count_occurrences(text))  # Should return 3 (unchain, unhuman, unplan)
 
 
 # QUESTION 6
-# text text text actual question
+# Please explain what it means that a list is mutable and a string is not mutable (imutable).
+# Give some code that shows the difference. Use your own words
 
 print("QUESTION 6")
 #SOLUTION
-
 
 #strings - session 7&8
 #lists - session 9&10
@@ -134,7 +144,11 @@ print("Modified string:", new_string)
 
 
 # QUESTION 7
-# text text text actual question
+# Here si some code:
+# Continue by replacing the numbers greater than 80 with their corresponding negative value (90 will be replaced with -90).
+# Also replace the number lower than 40 with the sum of their digits: 39 is replaced by 12.
+# print the list at the end
+# Use only what we have learned in class. Provide some explanation in the form of comments.
 
 print("QUESTION 7")
 #SOLUTION
@@ -161,6 +175,9 @@ print(random_numbers)
 
 
 #QUESTION 8
+# Write a function that checks if the passed parameter is a valid URL or not.
+# Please also explain your reasoning. Use only the concepts that we learned in class.
+# Do not use any imports
 
 print("QUESTION 8")
 #Solution
@@ -178,7 +195,9 @@ checkwebsite("https://holaadios")
 
 
 # QUESTION 9
-# text text text actual question
+# Given your birthday, in the format "DD-MM-YYYY", write a function that calculates how many days have passed since the day you were born (without counting the days in your birth year and the current year, so just whole years).
+# The function takes your birthday as a parameter in string format.
+# Do not import anything, use only what we learned in class
 
 print("QUESTION 9")
 #SOLUTION
