@@ -192,6 +192,7 @@ def checkwebsite(websitename):
         print("invalid URL") #If both conditions are not met == "invalid URL"
 
 checkwebsite("https://holaadios")
+checkwebsite("https://github.com/Carlosdiaz05/Midterm_exam")
 
 
 # QUESTION 9
