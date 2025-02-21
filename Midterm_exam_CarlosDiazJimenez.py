@@ -103,19 +103,19 @@ print(count_occurrences(text))  # Should return 3 (unchain, unhuman, unplan)
 print("QUESTION 6")
 #SOLUTION
 
-#strings - session 7&8
-#lists - session 9&10
-#Explanation:
-#Mutability means that an object can be modified after it is created.
-#Immutability means that an object cannot be changed after it is created.
+# strings - session 7&8
+# lists - session 9&10
+# Explanation:
+# Mutability means that an object can be modified after it is created.
+# Immutability means that an object cannot be changed after it is created.
 
-#Lists are Mutable
+# Lists are Mutable
 #A list is mutable because you can change the items inside the list after it was created. This means we can:
 #Add new elements.
 #Remove elements.
 #Change existing elements.
 
-#Strings are Immutable
+# Strings are Immutable
 #This means that you can not change them once created.
 #Trying to change will result in an error: TypeError: 'str' object does not support item assignment
 #If we want to modify a string, we need to create a new string (an altered copy of a string). This works because slicing creates a copy, rather than changing the original
